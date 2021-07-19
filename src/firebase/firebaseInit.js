@@ -2,12 +2,12 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 
 var firebaseConfig = {
-    apiKey: "AIzaSyB-V0GuebkTBBMfsV_1O084P-2J6ZcMjWs",
-    authDomain: "invoice-app-8d005.firebaseapp.com",
-    projectId: "invoice-app-8d005",
-    storageBucket: "invoice-app-8d005.appspot.com",
-    messagingSenderId: "1077035705628",
-    appId: "1:1077035705628:web:cf4dd3909b85b23c5606d9"
+    apiKey: "AIzaSyDMbI_Er4nI3nIcc6kUDIyGtpWQDn-Q4aM",
+    authDomain: "invoice-app-b64f3.firebaseapp.com",
+    projectId: "invoice-app-b64f3",
+    storageBucket: "invoice-app-b64f3.appspot.com",
+    messagingSenderId: "395029100161",
+    appId: "1:395029100161:web:533af0b9111f3d52ebbf80"
   };
 
   const firebaseApp = firebase.initializeApp(firebaseConfig)
