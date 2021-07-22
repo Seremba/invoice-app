@@ -290,7 +290,7 @@ export default {
       this.loading = true 
       this.calInvoiceTotal()
 
-      const dataBase = db.collection('invoices').doc()
+      const dataBase = db.collection("invoices").doc()
       await dataBase.set({
         invoiceId: uid(6),
         billerStreetAddress: this.billerStreetAddress,
